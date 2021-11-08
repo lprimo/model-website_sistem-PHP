@@ -1,0 +1,48 @@
+{
+	"name": "model",
+	"version": "1.0",
+	"description": "This is a Model project in PHP",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"bootstrap",
+		"4",
+		"sass",
+		"scss",
+		"gulp",
+		"4",
+		"boilerplate",
+		"stater"
+	],
+	"author": "Luis Fernando",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "^4.4.1",
+		"font-awesome": "4.7.0",
+		"jquery": ">=3.4.0",
+		"popper.js": "1.16.0"
+	},
+	"devDependencies": {
+		"@fancyapps/fancybox": "^3.5.7",
+		"@fortawesome/fontawesome-free": "^5.12.1",
+		"animate.css": "^3.7.2",
+		"browser-sync": "^2.26.7",
+		"del": "^3.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^4.1.0",
+		"gulp-clean-css": "3.9.4",
+		"gulp-concat": "^2.6.1",
+		"gulp-html-replace": "^1.6.2",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify-es": "^2.0.0",
+		"jquery-mask-plugin": "^1.14.16",
+		"jquery-validation": "^1.19.1",
+		"merge-stream": "^1.0.1",
+		"sweetalert2": "^9.7.2",
+		"swiper": "^5.3.1"
+	}
+}

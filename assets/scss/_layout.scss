@@ -1,0 +1,40 @@
+// Layout Style
+header{
+
+	#topbar{
+		background-color: $cinza;
+		padding: 15px 0;
+		@include font-size(12px);
+		color: $preto;
+		@media #{$mq-mobile}{
+			background-color: #FFFFFF;
+			padding: 20px 0;
+			@include font-size(16px);
+		}
+
+	}
+
+	&.interna{
+		background-color: #CC0000;
+	}
+
+	.wrap_menu{
+
+		background-color: $cor1;
+		&.fixed{
+			position: fixed;
+			width: 100%;
+			z-index: 999;
+			top: 0;
+		}
+	}
+}
+
+#banner{
+
+}
+
+footer{
+	background-color: $cor1;
+	color: $branco;
+}
